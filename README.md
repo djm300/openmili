@@ -1,4 +1,3 @@
-# openmili
 Open implementation of the Mi-Light 2.4GHz LED light control protocol
 
 This project should eventually contain
@@ -8,3 +7,8 @@ This project should eventually contain
 * Dumb sender/receiver that simply exposes Mi-Light messages over serial (both nRF51/pca10031 and nRF24/Arduino)
 * Host software that is a drop-in replacement for a Mi-Light Wi-Fi gateway, using the dumb sender, but with configurable sender IDs
 * Maybe: Smarter firmware that can speak the protocol on its own, possibly with improved timing
+
+This code allows an Arduino UNO to receive messages send to MiLights via an nRF24L01.
+
+Received messages are send via serial.
+
